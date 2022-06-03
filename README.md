@@ -16,7 +16,7 @@ Note: If you are using Unix or a conda environmnet, the steps might chnage accor
 
 **Step 6:** Enter the path to the repository on terminal `cd ./././Digital_segmentation_BRCA_547_Capstone`
 
-**Step 7:** Install dependencies by typing `pip install -r requiremnets.txt`
+**Step 7:** Install dependencies by typing `pip install -r requirements.txt`
 
 
 ## Timeline
