@@ -4,6 +4,7 @@ In order to use the code, you can create a virtual environment on a Windows syst
 
 Note: If you rae uisng Unix or a conda environmnet, the steps might chnage accordingly.
 
+`Step 1:`
 
 
 ## Timeline
