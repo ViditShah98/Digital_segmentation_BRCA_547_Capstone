@@ -1,6 +1,6 @@
 # Digital_segmentation_BRCA_547_Capstone
 
-### In order to use the code, you can create a virtual environment on a Windows system as follows: ###
+## In order to use the code, you can create a virtual environment on a Windows system as follows: ##
 
 Note: If you are using Unix or a conda environmnet, the steps might chnage accordingly.
 
