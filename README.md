@@ -1,10 +1,22 @@
 # Digital_segmentation_BRCA_547_Capstone
 
-In order to use the code, you can create a virtual environment on a Windows system as follows:
+## In order to use the code, you can create a virtual environment on a Windows system as follows: ##
 
-Note: If you rae uisng Unix or a conda environmnet, the steps might chnage accordingly.
+Note: If you are using Unix or a conda environmnet, the steps might chnage accordingly.
 
-`Step 1:`
+**Step 1:** Clone the repository to your computer.
+
+**Step 2:** Open the command prompt/shell and type `pip install virtualenv`
+
+**Step 3:** In the command prompt/shell type `virtualenv environment_cluster`
+
+**Step 4:** Create the virtual environment by typing `virtualenv environment_cluster`
+
+**Step 5:** Activate the virtual environment by typing `.\environment_cluster\Scripts\activate`
+
+**Step 6:** Enter the path to the repository on terminal `cd ./././Digital_segmentation_BRCA_547_Capstone`
+
+**Step 7:** Install dependencies by typing `pip install -r requirements.txt`
 
 
 ## Timeline
