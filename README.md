@@ -10,7 +10,9 @@ Note: If you are using Unix or a conda environmnet, the steps might chnage accor
 
 **Step 3:** In the command prompt/shell type `virtualenv environment_cluster`
 
-**Step 4:** Activate the virtual environment by typing `virtualenv environment_cluster`
+**Step 4:** Create the virtual environment by typing `virtualenv environment_cluster`
+
+**Step 5:** Activate the virtual environment by typing `.\environment_cluster\Scripts\activate
 
 **Step 5:** Enter the path to the repository on terminal `cd ./././Digital_segmentation_BRCA_547_Capstone`
 
