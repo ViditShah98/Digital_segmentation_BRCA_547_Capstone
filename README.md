@@ -1,9 +1,9 @@
 # Digital_segmentation_BRCA_547_Capstone
 
 ## Project Objective
-The goal of this project is to bulid an automaic pipeline that can extarct every patches in a specific size from the Whole slide Image(WSI) 
-of cancer tissue and using K-means clustering algorithm to get the overlayed immune cells. And in this project, we mainly focus on breast cancer
-tissue. The training model which is called super-patch is selected from 24 patches. 
+The project is intended to segment Iymphocytes(T cells and B cells) and macrophages on the stained images. And we have already bulit an automaic 
+pipeline that can extarct every patches from the Whole slide Image(WSI) of cancer tissue and using K-means clustering algorithm to get the 
+overlayed immune cells.
 
 ## Use Cases
 Generate clusters from an individual patch determine every component separately.</br>
