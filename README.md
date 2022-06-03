@@ -1,8 +1,23 @@
 # Digital_segmentation_BRCA_547_Capstone
 
-## In order to use the code, you can create a virtual environment on a Windows system as follows: ##
+## Project Objective
+The goal of this project is to bulid an automaic pipeline that can extarct every patches in a specific size from the Whole slide Image(WSI) 
+of cancer tissue and using K-means clustering algorithm to get the overlayed immune cells. And in this project, we mainly focus on breast cancer
+tissue. The training model which is called super-patch is selected from 24 patches. 
 
-Note: If you are using Unix or a conda environmnet, the steps might chnage accordingly.
+## Use Cases
+Generate clusters from an individual patch determine every component separately.</br>
+Overlay a single, multiple or all clusters at once on a patch depending upon the analysis that clinician needs to perform.</br>
+Automated process of an input WSI and multiple output overlayed patches.</br>
+Automating components of analysis which are constant and enabling enough interventional capability for the user.</br>
+Ability to classify different components within a particular subcluster of interest (if any exists)</br>
+
+## Methodology
+(the flowchart of the poster)
+
+## Installation
+In order to use the code, you can create a virtual environment on a Windows system as follows:
+Note: If you are using Unix or a conda environment, the steps might change accordingly.
 
 **Step 1:** Clone the repository to your computer.
 
@@ -18,6 +33,25 @@ Note: If you are using Unix or a conda environmnet, the steps might chnage accor
 
 **Step 7:** Install dependencies by typing `pip install -r requirements.txt`
 
+## Example
+
+## Repo Structure
+```
+Digital_segmentation_BRCA_547_Capstone
+-----
+Digital_segmentation_BRCA_547_Capstone/
+|-doc/
+| |-example/paper/
+| | |-_init_.py
+| |-Use_cases_and_design_components.docx
+|-tests/
+| |-_init_.py  
+|-cluster.py
+|-requirements.txt
+LICENSE
+README.md
+```
+## Ongoing and Future Work
 
 ## Timeline
 ```mermaid
