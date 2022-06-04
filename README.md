@@ -4,7 +4,7 @@
 # Digital_segmentation_BRCA_547_Capstone
 
 ## Project Objective
-The project is intended to segment Iymphocytes(T cells and B cells) and macrophages on the stained images. And we have already bulit an automaic 
+The project is intended to segment immune cells on the stained images. And we have already bulit an automaic 
 pipeline that can extarct every patches from the Whole slide Image(WSI) of cancer tissue and using K-means clustering algorithm to get the 
 overlayed immune cells.
 
