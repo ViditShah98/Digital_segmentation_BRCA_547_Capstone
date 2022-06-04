@@ -37,6 +37,17 @@ Note: If you are using Unix or a conda environment, the steps might change accor
 **Step 7:** Install dependencies by typing `pip install -r requirements.txt`
 
 ## Example
+<img src=https://github.com/ViditShah98/Digital_segmentation_BRCA_547_Capstone/blob/main/Picture1.png />
+
+1. Extracted H&E-stained patch.
+
+2. Digitally clustered patch.
+
+3. Overlay of the digitally clustered patch.
+
+4. Digital map of the segmented immune cells
+
+5. Overlay of the segmented patch.
 
 ## Repo Structure
 ```
