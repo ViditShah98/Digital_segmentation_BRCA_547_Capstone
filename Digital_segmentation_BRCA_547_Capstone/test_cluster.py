@@ -2,14 +2,7 @@ import cluster
 import unittest
 import numpy as np
 
-from cluster import model, pred_and_cluster, remove_background
-
-# class pred_and_cluster(unittest.TestCase):
-#     def test_smoke(self):
-#         class model():
-#             clys = np.random.randn(8, 3)
-#         pred_and_cluster(model, os.getcwd())
-#         return
+from cluster import remove_background
 
 class remove_background(unittest.TestCase):
     def test_smoke(self):

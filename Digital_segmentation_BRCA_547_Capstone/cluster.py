@@ -40,7 +40,8 @@ def pred_and_cluster(model, dir_path):
             pass
         else:
             raise ValueError("The model must be trained for 8 clusters")
-            
+        
+        pred_patch = plt.imread(os.path.join(dir_path, file))
         pred_patch_n = np.float32(pred_patch.reshape((-1, 3))/255.)
         labels = model.predict(pred_patch_n)
         overlay_center = np.copy(model.cluster_centers_)
@@ -84,6 +85,7 @@ def remove_background(slide_img, x_tile_size, y_tile_size, color_delta=40):
     '''
     
     dim = slide_img.shape
+    print(slide_img)
     
     if type(x_tile_size) == int and type(y_tile_size) == int:
         pass
