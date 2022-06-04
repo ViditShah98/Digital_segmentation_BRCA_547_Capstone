@@ -1,3 +1,6 @@
+[![Anaconda-Server Badge](https://anaconda.org/anaconda/anaconda/badges/platforms.svg)](https://anaconda.org/anaconda/anaconda)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # Digital_segmentation_BRCA_547_Capstone
 
 ## Project Objective
@@ -13,7 +16,7 @@ Automating components of analysis which are constant and enabling enough interve
 Ability to classify different components within a particular subcluster of interest (if any exists)</br>
 
 ## Methodology
-(the flowchart of the poster)
+<img src=https://github.com/ViditShah98/Digital_segmentation_BRCA_547_Capstone/blob/main/Picture2.png />
 
 ## Installation
 In order to use the code, you can create a virtual environment on a Windows system as follows:
@@ -34,6 +37,17 @@ Note: If you are using Unix or a conda environment, the steps might change accor
 **Step 7:** Install dependencies by typing `pip install -r requirements.txt`
 
 ## Example
+<img src=https://github.com/ViditShah98/Digital_segmentation_BRCA_547_Capstone/blob/main/Picture1.png />
+
+1. Extracted H&E-stained patch.
+
+2. Digitally clustered patch.
+
+3. Overlay of the digitally clustered patch.
+
+4. Digital map of the segmented immune cells
+
+5. Overlay of the segmented patch.
 
 ## Repo Structure
 ```
