@@ -8,7 +8,6 @@ from skimage import io
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-@jit
 def model(patch_path): 
     
     '''
