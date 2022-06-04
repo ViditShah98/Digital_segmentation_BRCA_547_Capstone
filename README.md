@@ -16,7 +16,7 @@ Automating components of analysis which are constant and enabling enough interve
 Ability to classify different components within a particular subcluster of interest (if any exists)</br>
 
 ## Methodology
-(the flowchart of the poster)
+<img src=https://github.com/ViditShah98/Digital_segmentation_BRCA_547_Capstone/blob/main/Picture2.png />
 
 ## Installation
 In order to use the code, you can create a virtual environment on a Windows system as follows:
