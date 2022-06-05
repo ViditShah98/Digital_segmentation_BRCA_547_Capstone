@@ -4,8 +4,8 @@
 # Digital_segmentation_BRCA_547_Capstone
 
 ## Project Objective
-The project is intended to segment immune cells on the stained images. And we have already bulit an automaic 
-pipeline that can extarct every patches from the Whole slide Image(WSI) of cancer tissue and using K-means clustering algorithm to get the 
+The project is intended to segment immune cells on the stained images. And we have already bulit an automaic pipeline that 
+can extarct every patches from the Whole slide Image(WSI) of cancer tissue and using K-means clustering algorithm to get the 
 overlayed immune cells.
 
 ## Use Cases
@@ -66,6 +66,11 @@ LICENSE
 README.md
 ```
 ## Ongoing and Future Work
+ONGOING: In order to improve the accuracy and performance of the model even further, we are currently applying textural post 
+processing techniques.
+ 
+FUTURE WORK: Implement supervised learning for further segmentation of the immune map.
+
 
 ## Timeline
 ```mermaid
