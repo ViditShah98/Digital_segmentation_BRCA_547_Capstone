@@ -76,19 +76,24 @@ FUTURE WORK: Implement supervised learning for further segmentation of the immun
 ```mermaid
 gantt
  title Timeline
- section To do
-   Build a pipeline for multiple images processing (T-cells)     : 2022-04-23, 7d
-   Build up several different pipelines for different immune cells    : 2022-04-30, 9d
-   Create a UI containing all pipelines of different immune cells    : 2022-05-09, 7d
-   Analyze percentage population of immune cells close and far away from tumor:    2022-05-16, 7d
-   Add population analysis as a function in the UI:    2022-05-21, 7d
-   Test UI and optimize process:    2022-05-27, 5d
-   Prepare final presentation and finalize repository:    2022-05-31, 4d
- section Doing
-   Buid a pipeline for one image processing (T-cells)    : 2022-04-14, 9d
  section Done
-   Meet with sponsor    : 2022-04-01, 4d
-   Buid use cases    : 2022-04-04, 5d
-   Generate merged clusters and overlay images for the patches : 2022-04-08, 6d
-   Make timeline and update repository : 2022-04-08, 6d
+   Meet with sponsor     : 2022-04-01, 7d
+   Generate merged clusters and overlay images    : 2022-04-12, 7d
+   Make Gantt chart and update on README.md    : 2022-04-12, 7d
+   Using K-Means to build a pipeline:    2022-04-08, 4d
+   Extract patches from 17 whole slide images:    2022-04-19, 7d
+   Write a python method that can automatically extract patches from WSI:    2022-04-19, 7d
+   Optimize cluster number and weight in python:    2022-04-19, 7d
+   Using different patches to test the code and analyze the results:  2022-04-26, 7d
+   Using patches that have good and bad performance to fit the model and get the segmented immune cells: 2022-05-03, 7d
+   Choose patches that can fit most of the testing patches to make super-patch: 2022-05-10, 2d
+   Using super-patch to train the model and get test results: 2022-05-12, 5d
+   Compare the results from super-patch and from previous model: 2022-05-12, 5d
+   Extract new patches from WSI: 2022-05-12, 1d
+   Using new patches to train the model and get best performance patches: 2022-05-12, 2d
+   Using new super-patch to fit the model and get test results: 2022-05-14, 5d
+   Analyze the results and make a future plan: 2022-05-19, 5d
+   Make the poster: 2022-05-26, 5d
+   Finalize the repo and prepare the final presentation: 2022-06-01, 5d
+ 
 ```
