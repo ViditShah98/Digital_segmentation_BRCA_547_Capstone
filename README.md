@@ -1,5 +1,6 @@
-[![Anaconda-Server Badge](https://anaconda.org/anaconda/anaconda/badges/platforms.svg)](https://anaconda.org/anaconda/anaconda)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 
 # Digital_segmentation_BRCA_547_Capstone
 
