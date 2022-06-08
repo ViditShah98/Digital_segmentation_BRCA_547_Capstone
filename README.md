@@ -60,11 +60,17 @@ Digital_segmentation_BRCA_547_Capstone/
 | |-example/paper/
 | | |-_init_.py
 | |-Use_cases_and_design_components.docx
+| |-Use_cases_and_design_components.pdf
+| |-ChemE_547_Final_Poster.pdf
+| |-Pitch.docx
 |-tests/
 | |-_init_.py  
 |-cluster.py
 |-requirements.txt
+|-test_cluster.py
 LICENSE
+Picture1.png
+Picture2.png
 README.md
 ```
 ## Ongoing and Future Work
@@ -99,3 +105,4 @@ gantt
    Finalize the repo and prepare the final presentation: 2022-06-01, 5d
  
 ```
+## Group Members: Zilun Cai, Yanyao Han, Ruofan Liu, Vidit Shah.
